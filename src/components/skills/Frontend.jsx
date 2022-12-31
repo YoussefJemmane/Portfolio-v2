@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './skills.css'
 const Frontend = () => {
   return (
     <div className="skills__content">
