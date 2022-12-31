@@ -152,8 +152,18 @@
 }
 
 @media screen and (min-width: 350px) and (max-width: 490px) {
-  .home__img {
-    width: 100px;
-    height: 100px;
+  .home__img{
+    width: 150px;
+    height: 150px;
+  }
+  .home__subtitle{
+    padding-left: 4.5rem;
+  }
+  .home__subtitle::before{
+    width: 50px;
+    top: 1rem;
+  }
+  .home__scroll{
+    margin-left: 4.5rem;
   }
 }
